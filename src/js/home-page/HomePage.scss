@@ -1,0 +1,53 @@
+@import '../../sass/mixins';
+@import '../../sass/variables';
+
+#home-page-container {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/gray.jpg');
+  @include addResponsiveBackgroundImage;
+
+  #header {
+    @include locateDivAtCenter;
+    text-transform: uppercase;
+    #main-header {
+      padding-bottom: 5%;
+    }
+
+    #secondary-header {
+      padding-top: 5%;
+      text-align: center;
+    }
+  }
+
+  #links {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  .link-container {
+    padding: 0 8px;
+    line-height: 60px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+}
+
+.jumbotron-line {
+  border-top: 3px solid blue;
+}
+

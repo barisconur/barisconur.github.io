@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './js/App';
+import HomePage from './js/home-page/HomePage';
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(<HomePage/>, document.getElementById('home-page'));
