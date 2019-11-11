@@ -1,13 +1,13 @@
-import React, {Fragment} from "react";
+import React from "react";
 
 function AboutMe() {
     return (
-        <Fragment>
+        <div className="about-me-container">
             <div className="title-panel">
                 <h2 className="title-text">About Me</h2>
                 <hr align="center" width="8%" className="jumbotron-line"/>
             </div>
-        </Fragment>
+        </div>
     );
 }
 export default AboutMe;

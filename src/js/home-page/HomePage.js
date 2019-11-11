@@ -1,18 +1,24 @@
 import React, {Fragment} from 'react';
 import "./HomePage.scss";
 import Jumbotron from "../Components/Jumbotron";
-import {BrowserRouter as Router, Link} from "react-router-dom";
+import AboutMe from "../Components/AboutMe";
 
 export default class HomePage extends React.Component {
 
     render() {
         return (
-            <div id="home-page-container">
-                <div id="header"> <Jumbotron/> </div>
-                <Fragment>
-                    {this.displayLinks()}
-                </Fragment>
-            </div>
+            <Fragment>
+                <div id="home-page-container">
+                    <div id="header"> <Jumbotron/> </div>
+                    <div id="links">{ this.displayLinks() }</div>
+                </div>
+                <div className="section" id="skills-section"><AboutMe/> </div>
+         {/*       <div className="section" id="experience-section"><AboutMe/></div>
+                <div className="section" id="education-section"><AboutMe/></div>
+                <div className="section" id="portfolio-section"><AboutMe/></div>
+                <div className="section" id="Contact-section"><AboutMe/></div>*/}
+            </Fragment>
+
         );
     }
 
@@ -25,15 +31,11 @@ export default class HomePage extends React.Component {
             {text: 'Portfolio'},
             {text: 'Contact'},
         ]);
-
-        return <Router>
-            <div id="links">
-                <ul>
-                    {links.map((link, index) => (
-                        <li className="link-container" key={index}> <Link to={"/" + link.text}>{link.text}</Link> </li>
+        return <Fragment>
+                <ul>{links.map((link, index) => (
+                    <li className="link-container" key={index}> <a href={"#" + link.text}>{link.text}</a> </li>
                     ))}
                 </ul>
-            </div>
-        </Router>
+            </Fragment>
     }
 }
