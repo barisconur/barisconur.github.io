@@ -12,11 +12,11 @@ export default class HomePage extends React.Component {
                     <div id="header"> <Jumbotron/> </div>
                     <div id="links">{ this.displayLinks() }</div>
                 </div>
-                <div className="section" id="skills-section"><AboutMe/> </div>
-         {/*       <div className="section" id="experience-section"><AboutMe/></div>
-                <div className="section" id="education-section"><AboutMe/></div>
-                <div className="section" id="portfolio-section"><AboutMe/></div>
-                <div className="section" id="Contact-section"><AboutMe/></div>*/}
+                <div id="about-me-container" className="section"><AboutMe/> </div>
+                {/*<div className="section" id="experience-section"><AboutMe/></div>*/}
+                {/*<div className="section" id="education-section"><AboutMe/></div>*/}
+                {/*<div className="section" id="portfolio-section"><AboutMe/></div>*/}
+                {/*<div className="section" id="Contact-section"><AboutMe/></div>*/}
             </Fragment>
 
         );
@@ -33,7 +33,7 @@ export default class HomePage extends React.Component {
         ]);
         return <Fragment>
                 <ul>{links.map((link, index) => (
-                    <li className="link-container" key={index}> <a href={"#" + link.text}>{link.text}</a> </li>
+                    <li className="link-container" key={index}> <a className="link" href={"#" + link.text}>{link.text}</a> </li>
                     ))}
                 </ul>
             </Fragment>
