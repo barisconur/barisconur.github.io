@@ -1,14 +1,11 @@
 {
-  "title": "Hi, It's me!!",
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "title": "Hi, this is just me!",
+  "summary": "I have been studying Computer Science at Ozyegin University in Turkey and I will be graduated at the end of this year. I really like learning new staff and building a new software by using that knowledge. I want to work in an international company in Turkey or abroad after graduated from the university. And now I'm looking for freelance jobs on building websites.",
   "URL": [
     "https://twitter.com/fortunacabeza",
     "https://github.com/barisconur/",
     "https://www.linkedin.com/in/bar%C4%B1%C5%9F-cemal-onur-714448138/"
   ],
   "title2": "Personal Interests",
-  "title2Description":"When I am not coding my next project, I enjoy spending my time doing any of the following:",
-  "interests": [
-    "learning", "playing", "asdasdas", "ldkjldskjf"
-  ]
+  "title2Description":"When I'm not coding or not studying, I enjoy spending my time doing any of the following:"
 }

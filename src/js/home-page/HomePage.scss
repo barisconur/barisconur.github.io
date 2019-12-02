@@ -1,16 +1,58 @@
 @import '../../sass/mixins';
 @import '../../sass/variables';
 
+.section {
+  margin: 0 auto;
+  padding:75px 0;
+  position: relative;
+
+  .title-panel {
+    text-align: center;
+    padding-bottom: 75px;
+
+    .jumbotron-line {
+      border-top: 3px solid;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      width: 20%;
+    }
+  }
+}
+
+.title-text {
+  font-size: $large-font-size;
+}
+
+.category-title {
+  font-size: $middle-font-size;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.category-text {
+  font-size: $small-font-size;
+}
+
+.container {
+  max-width: 1250px !important;
+}
+
+.separator {
+  width: 30px;
+  height: 3px;
+  background: #ccc;
+  margin: 30px auto;
+}
 #home-page-container {
   width: 100%;
   height: 100%;
   color: white;
-  background-image: url('../../images/back1.jpeg');
+  background-image: url('../../images/home-page-background.jpeg');
   @include addResponsiveBackgroundImage;
 
   #header {
     @include locateDivAtCenter;
-    text-transform: uppercase;
     #main-header {
       #main-header-text {
         font-size: $extra-large-font-size;
@@ -64,7 +106,7 @@
       text-decoration: none;
     }
     .link {
-      color: #3DDC43; // 27B02C, 3DDC43
+      color: #17962f;
     }
     .link:hover {
       color: #27B02C;
@@ -73,18 +115,9 @@
 }
 
 #about-me-container {
+  background-color: #EEEEEE;
   .container {
     .row {
-      .about-title {
-        font-size: $middle-font-size;
-        font-weight: 700;
-        padding-bottom: 3%;
-      }
-
-      .about-summary {
-        font-size: $small-font-size;
-      }
-
       #profile-image-panel { .img-fluid { height: 444px; } }
 
       #summary-panel {
@@ -121,26 +154,68 @@
   }
 }
 
-.section {
-  margin: 0 auto;
-  padding:75px 0;
-  position: relative;
+#skills-container {
+  #skills-intro-panel {
+    padding-bottom: 50px;
+  }
 
-  .title-panel {
-    text-align: center;
-    padding-bottom: 2.5%;
+  .logos-panel {
+    justify-content: center;
+    padding-top: 25px;
+    display: flex;
 
-    .jumbotron-line {
-      border-top: 3px solid;
-      margin-left: auto;
-      margin-right: auto;
-      float: none;
-      width: 20%;
+    a.social {
+      margin: 0 4rem;
+      transition: transform 250ms;
+      display: inline-block;
+    }
+
+    a.social:hover {
+      transform: translateY(-2px);
+    }
+
+    a.github {
+      color: black;
+    }
+
+    a.js {
+      color: #e6c949;
+    }
+
+    a.react {
+      color: #00b7d6;
+    }
+
+    a.vue {
+      color: #039958;
+    }
+
+    a.java {
+      color: darkred;
     }
   }
 }
 
-.title-text {
-  font-size: $large-font-size;
+#education-container {
+  background-color: #EEEEEE;
+  .schools-panel {
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    .school {
+      padding: 25px;
+      #department {
+        color: orangered;
+      }
+
+      .category-title {
+        padding-bottom: 0px;
+      }
+      .category-text {
+        padding-top: 10px;
+      }
+    }
+  }
+
 }
 

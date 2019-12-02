@@ -1,0 +1,17 @@
+{
+  "schools" :[
+    {
+      "name": "Ozyegin University",
+      "department": "BACHELOR OF COMPUTER SCIENCE",
+      "description": "I have been studying Computer Science at Ozyegin University since 2015. I learned English in prep school called Scola at first year and then I started learning computer science basics and concepts. You can find taken courses related to computer science below. Hopefully, I will be graduated at the end of this year.",
+      "graduateData": "2020"
+    },
+
+    {
+      "name": "Beyoglu Anatolian High School",
+      "department": "SCIENCE & MATH",
+      "description": "dskjfdfhjksldkjffhjsdlkfjhsaldkfjhsdlkfjsdhlfksdjdhjksflksdajdfjkshlaskdjadfjkshlskdajfdfhjkslksadjfdfhjkslksdajfdfhjklsadkjfdfjkhalk",
+      "graduateData": "2015"
+    }
+  ]
+}

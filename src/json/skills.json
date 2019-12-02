@@ -1,0 +1,25 @@
+{
+  "intro": "I have experienced with a bunch of programming languages such as Java, Javascript, Python, C++, C#, C, Haskell and so on. But I often use Java while trying to solve an algorithm problem or any project given as an assignment. Also I use Javascript frameworks such as React, Vue while coding frontend side of the web applications. ",
+  "contents": [
+    {
+      "title": "Computer Skills",
+      "skills": [
+        "MS Office (Word, Excel, Power Point)",
+        "Java",
+        "Unity Game Development in C#",
+        "Git and Github",
+        "HTML, CSS and JavaScript",
+        "Vue.js, React.js",
+        "Agile Software Development"
+      ]
+    },
+    {
+      "title": "Language Skills",
+      "skills": [
+        "Written and oral fluency in English",
+        "Beginner level German",
+        "Beginner level Spanish"
+      ]
+    }
+  ]
+}
