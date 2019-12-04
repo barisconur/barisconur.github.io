@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React,{Fragment} from "react";
-import "../home-page/HomePage.scss";
+import "../HomePage.scss";
 
 export default function Courses() {
 	return (

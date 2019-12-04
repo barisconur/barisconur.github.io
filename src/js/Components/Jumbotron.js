@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, {Fragment} from 'react';
-import person from '../../json/person';
+import person from '../../json/jumbotron';
 
 export default function Jumbotron() {
     return (
