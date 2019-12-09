@@ -24,7 +24,9 @@ export default function Skills() {
 						<div className="col-2"/>
 					</div>
 				</div>
-				<div className="logos-panel">{ displaySocialMediaIcons() }</div>
+				<ul id="logos-panel" className="nav justify-content-center">
+					{ displaySocialMediaIcons() }
+				</ul>
 			</>
 	);
 }
@@ -75,7 +77,7 @@ function displaySocialMediaIcons() {
 			class: "java social",
 			icon: faJava,
 			url: "https://www.java.com/en/"
-		},
+		}
 	]);
 
 	return <>

@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, {Fragment} from 'react';
 import "./HomePage.scss";
+import homeIcon from '../images/arrow_upward-24px.svg';
 import Jumbotron from "./Components/Jumbotron";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
@@ -21,6 +22,11 @@ export default function HomePage() {
         <div id="courses-container" className="section"><Courses/></div>
         {/*<div id="experience-section" className="section"><AboutMe/></div>*/}
         {/*<div id="Contact-section" className="section"><AboutMe/></div>*/}
+        <div id="home-page-button">
+          <button>
+            <img className="list-icon" src={homeIcon} alt="home-icon"/>
+          </button>
+        </div>
       </>
 
   );
