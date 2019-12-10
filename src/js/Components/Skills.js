@@ -19,9 +19,9 @@ export default function Skills() {
 
 				<div className="container">
 					<div className="row">
-						<div className="col-2"/>
+						<div className="col-1 col-md-2"/>
 						{ displayColumns() }
-						<div className="col-2"/>
+						<div className="col-1 col-md-2"/>
 					</div>
 				</div>
 				<ul id="logos-panel" className="nav justify-content-center">

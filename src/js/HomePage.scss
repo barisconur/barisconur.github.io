@@ -25,7 +25,7 @@
 }
 
 .category-title {
-  font-size: $middle-font-size;
+  font-size: $medium-font-size;
   font-weight: 700;
   padding-bottom: 1%;
 }
@@ -247,11 +247,12 @@ a:hover {
         margin-bottom: 20px;
 
         #location {
-          margin: auto;
+          margin-top: 7.5px;
           line-height: 32px;
           vertical-align: middle;
           padding-left: 5px;
           padding-top: 3.5%;
+          justify-content: center;
         }
       }
       .category-title {
@@ -263,5 +264,106 @@ a:hover {
     }
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .title-text {
+    font-size: $medium-font-size;
+  }
+
+  .category-title {
+    text-align: center;
+    font-size: $ideal-font-size;
+  }
+
+  .category-text {
+    font-size: $extra-small-font-size;
+  }
+
+  .social {
+    padding-bottom: 10px;
+  }
+
+  .container {
+    display: grid;
+
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+    grid-auto-flow: row;
+  }
+
+  #home-page-container {
+    #header {
+      top: 27.5%;
+      width: 100%;
+      #main-header {
+        text-align: center;
+        #main-header-text {
+          font-size: $large-font-size;
+        }
+      }
+      #header-line {
+        margin-left: 7.5%;
+        border-top: 3px solid white;
+      }
+      #secondary-header {
+        #secondary-header-text {
+          font-size: $medium-font-size;
+        }
+      }
+    }
+
+    #links {
+      top: 37.5%;
+      height: initial;
+      ul {
+        display: grid;
+      }
+    }
+  }
+
+  #about-me-container {
+    #profile-image-panel {
+      text-align: center;
+      display: block;
+      padding-bottom: 20px;
+    }
+    #summary-panel {
+      padding-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title-text {
+    font-size: $medium-font-size;
+  }
+
+  .category-title {
+    text-align: center;
+    font-size: $ideal-font-size;
+  }
+
+  .category-text {
+    font-size: $extra-small-font-size;
+  }
+
+  #home-page-container {
+    #header {
+      #main-header {
+        #main-header-text {
+          font-size: $large-font-size;
+        }
+      }
+      #secondary-header {
+        #secondary-header-text {
+          font-size: $medium-font-size;
+        }
+      }
+    }
+  }
+}
+
+
+
+
 
 

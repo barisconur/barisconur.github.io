@@ -14,11 +14,11 @@ export default function AboutMe() {
 
             <div className="container">
                 <div className="row">
-                    <div id="profile-image-panel" className="col-4">
+                    <div id="profile-image-panel" className="col-xs-12 col-md-4">
                         <img src={require('../../images/profile-photo.jpg')} className="img-fluid" alt="profile"/>
                     </div>
 
-                    <div id="summary-panel" className="col-4">
+                    <div id="summary-panel" className="col-xs-12 col-md-4">
                         <h4 className="category-title">{about.title}</h4>
                         <p className="category-text">{about.summary}</p>
                         <p className="category-text">If you need something built, you can contact me via {<a href={"#Contact"}>email</a>} or ping me via twitter.
@@ -26,7 +26,7 @@ export default function AboutMe() {
                         <div id="social-media-panel"><SocialFollow/></div>
                     </div>
 
-                    <div id="interest-panel" className="col-4">
+                    <div id="interest-panel" className="col-xs-12 col-md-4">
                         <h4 className="category-title">{about.title2}</h4>
                         <p className="category-text">{about.title2Description}</p>
                         <div className="interest-list">
