@@ -25,9 +25,27 @@
       "semester": "Spring 2017/18"
     },
     {
+      "id": "CS 240",
+      "name": "Computer Architecture",
+      "instructor": "Hasan Fatih Ugurdag",
+      "semester": "Spring 2017/18"
+    },
+    {
       "id": "CS 201",
       "name": "Data Structures and Algorithms",
       "instructor": "Hasan Sozer",
+      "semester": "Fall 2018/19"
+    },
+    {
+      "id": "CS 320",
+      "name": "Software Engineering",
+      "instructor": "Hasan Sozer",
+      "semester": "Fall 2018/19"
+    },
+    {
+      "id": "CS 321",
+      "name": "Programming Languages",
+      "instructor": "Furkan Kirac",
       "semester": "Fall 2018/19"
     },
     {
@@ -37,22 +55,34 @@
       "semester": "Spring 2018/19"
     },
     {
-      "id": "CS 240",
-      "name": "Data Structures and Algorithms",
-      "instructor": "Hasan Sozer",
-      "semester": "Fall 2018/19"
+      "id": "CS 350",
+      "name": "Operating Systems",
+      "instructor": "Ismail Ari",
+      "semester": "Spring 2018/19"
     },
     {
-      "id": "CS 320",
-      "name": "Data Structures and Algorithms",
-      "instructor": "Hasan Sozer",
-      "semester": "Fall 2018/19"
+      "id": "CS 399",
+      "name": "Communication Security",
+      "instructor": "-",
+      "semester": "Spring 2018/19"
     },
     {
-      "id": "CS 321",
-      "name": "Data Structures and Algorithms",
-      "instructor": "Hasan Sozer",
-      "semester": "Fall 2018/19"
+      "id": "CS 410",
+      "name": "Automata Theory and Formal Languages",
+      "instructor": "Ozlem Salehi Koken",
+      "semester": "Fall 2019/20"
+    },
+    {
+      "id": "CS 418",
+      "name": "Networked Entertainment",
+      "instructor": "A.Cengiz Begen",
+      "semester": "Fall 2019/20"
+    },
+    {
+      "id": "CS 442",
+      "name": "Network Security",
+      "instructor": "Huseyin Ulusoy",
+      "semester": "Fall 2019/20"
     }
   ]
 }
