@@ -12,20 +12,20 @@ import Experience from "./Components/Experience";
 
 export default function HomePage() {
   return (
-      <>
-        <div id="home-page-container">
-          <div id="header"><Jumbotron/></div>
-          <div id="links">{ displayLinks() }</div>
-        </div>
+    <>
+      <div id="home-page-container">
+        <div id="header"><Jumbotron/></div>
+        <div id="links">{ displayLinks() }</div>
+      </div>
 
-        <div id="About" className="section"><AboutMe/></div>
-        <div id="Skills" className="section"><Skills/></div>
-        <div id="Education" className="section"><Education/></div>
-        <div id="Courses" className="section"><Courses/></div>
-        <div id="Experience" className="section"><Experience/></div>
+      <div id="About" className="section"><AboutMe/></div>
+      <div id="Skills" className="section"><Skills/></div>
+      <div id="Education" className="section"><Education/></div>
+      <div id="Courses" className="section"><Courses/></div>
+      <div id="Experience" className="section"><Experience/></div>
 
-        <div id="home-page-button"><ScrollUpButton/></div>
-      </>
+      <div id="home-page-button"><ScrollUpButton/></div>
+    </>
   );
 }
 

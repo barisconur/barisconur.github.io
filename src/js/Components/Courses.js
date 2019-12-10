@@ -16,7 +16,6 @@ export default function Courses() {
 						<tr>
 							<th scope="col">Course Code</th>
 							<th scope="col">Course Name</th>
-							<th scope="col">Instructor</th>
 							<th scope="col">Term</th>
 						</tr>
 						</thead>
@@ -33,7 +32,6 @@ function displayCourses() {
 			<tr key={index}>
 				<th scope="row">{course.id}</th>
 				<td>{course.name}</td>
-				<td>{course.instructor}</td>
 				<td>{course.semester}</td>
 			</tr>
 	))}

@@ -3,85 +3,71 @@
     {
       "id": "CS 101",
       "name": "Computer Programming",
-      "instructor": "Reyhan Aydogan",
       "semester": "Fall 2016/17"
     },
     {
       "id": "CS 102",
       "name": "Object-Oriented Programming",
-      "instructor": "Reyyan Yeniterzi",
       "semester": "Spring 2016/17"
     },
     {
       "id": "CS 112",
       "name": "Discrete Mathematics for Computer Science",
-      "instructor": "M. Reha Civanlar",
       "semester": "Fall 2017/18"
     },
     {
       "id": "CS 222",
       "name": "Programming Studio",
-      "instructor": "Tankut Baris Aktemur",
       "semester": "Spring 2017/18"
     },
     {
       "id": "CS 240",
       "name": "Computer Architecture",
-      "instructor": "Hasan Fatih Ugurdag",
       "semester": "Spring 2017/18"
     },
     {
       "id": "CS 201",
       "name": "Data Structures and Algorithms",
-      "instructor": "Hasan Sozer",
       "semester": "Fall 2018/19"
     },
     {
       "id": "CS 320",
       "name": "Software Engineering",
-      "instructor": "Hasan Sozer",
       "semester": "Fall 2018/19"
     },
     {
       "id": "CS 321",
       "name": "Programming Languages",
-      "instructor": "Furkan Kirac",
       "semester": "Fall 2018/19"
     },
     {
       "id": "CS 202",
       "name": "Database Management Systems",
-      "instructor": "Huseyin Ulusoy",
       "semester": "Spring 2018/19"
     },
     {
       "id": "CS 350",
       "name": "Operating Systems",
-      "instructor": "Ismail Ari",
       "semester": "Spring 2018/19"
     },
     {
       "id": "CS 399",
       "name": "Communication Security",
-      "instructor": "-",
       "semester": "Spring 2018/19"
     },
     {
       "id": "CS 410",
       "name": "Automata Theory and Formal Languages",
-      "instructor": "Ozlem Salehi Koken",
       "semester": "Fall 2019/20"
     },
     {
       "id": "CS 418",
       "name": "Networked Entertainment",
-      "instructor": "A.Cengiz Begen",
       "semester": "Fall 2019/20"
     },
     {
       "id": "CS 442",
       "name": "Network Security",
-      "instructor": "Huseyin Ulusoy",
       "semester": "Fall 2019/20"
     }
   ]
