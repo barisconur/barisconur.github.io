@@ -1,5 +1,5 @@
-@import '../sass/mixins';
-@import '../sass/variables';
+@import 'mixins';
+@import 'variables';
 
 .section {
   margin: 0 auto;
@@ -236,6 +236,7 @@ a:hover {
         color: orangered;
       }
       #location-panel {
+        justify-content: center;
         display: inline-flex;
         margin-bottom: 20px;
 
@@ -314,7 +315,7 @@ a:hover {
     }
   }
 
-  #about-me-container {
+  #About {
     #profile-image-panel {
       text-align: center;
       display: block;
@@ -323,6 +324,10 @@ a:hover {
     #summary-panel {
       padding-bottom: 20px;
     }
+  }
+
+  #social-media-panel {
+    text-align: center;
   }
 }
 

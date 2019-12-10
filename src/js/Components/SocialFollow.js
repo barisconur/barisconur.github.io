@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, {Fragment} from 'react';
-import '../HomePage.scss';
+import '../../sass/HomePage.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faTwitter, faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons"
 import about from '../../json/aboutMe';

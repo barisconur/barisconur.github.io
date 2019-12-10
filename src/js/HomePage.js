@@ -2,7 +2,7 @@
 import React, {Fragment} from 'react';
 import ScrollUpButton from "react-scroll-up-button";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import "./HomePage.scss";
+import "../sass/HomePage.scss";
 import Jumbotron from "./Components/Jumbotron";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
