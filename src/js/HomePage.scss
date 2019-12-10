@@ -49,13 +49,6 @@ a:hover {
   text-decoration: none;
 }
 
-#home-page-button {
-  position: fixed;
-  bottom: 1%;
-  right: 2%;
-}
-
-
 #home-page-container {
   width: 100%;
   height: 100%;
@@ -126,7 +119,7 @@ a:hover {
   }
 }
 
-#about-me-container {
+#About {
   background-color: #EEEEEE;
   .container {
     .row {
@@ -166,7 +159,7 @@ a:hover {
   }
 }
 
-#skills-container {
+#Skills {
   #skills-intro-panel {
     padding-bottom: 3%;
   }
@@ -209,7 +202,7 @@ a:hover {
   }
 }
 
-#education-container {
+#Education {
   background-color: #EEEEEE;
   .schools-panel {
     text-align:center;
@@ -231,7 +224,7 @@ a:hover {
   }
 }
 
-#experience-container {
+#Experience {
   background-color: #EEEEEE;
   .experiences-panel {
     text-align:center;
