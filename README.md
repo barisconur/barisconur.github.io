@@ -1,5 +1,6 @@
 The website was deployed. Just go: https://master.d1jzqzo3g6sx7h.amplifyapp.com/
 
+
 This project was bootstrapped with [Create React HomePage](https://github.com/facebook/create-react-app).
 
 ### `0. git clone https://github.com/barisconur/cemal-website.git`
@@ -17,3 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+## Technologies used
+
+* React.js
+* Bootstrap
+* Sass
+* yarn
