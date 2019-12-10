@@ -39,7 +39,7 @@ function displayLinks() {
   ]);
   return <>
     <ul>{links.map((link, index) =>
-      <li className="link-container" key={index}> <AnchorLink className="link" offset="100" href={"#" + link.text}>{link.text}</AnchorLink></li>
+      <li className="link-container" key={index}> <AnchorLink className="link" href={"#" + link.text}>{link.text}</AnchorLink></li>
       )}
     </ul>
   </>
