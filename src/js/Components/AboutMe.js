@@ -45,7 +45,7 @@ function displayInterestList() {
             <li className="category-text">I'm <b>playing the piano</b> for a long time.</li>
             <li className="category-text">I love <b>playing chess</b> online.</li>
             <li className="category-text">I really enjoy watching conferences such as <b>Cppcon</b>, <b>TedTalks</b>, and so on.</li>
-            <li className="category-text">And I like helping somebody around me by sharing and talking on my previous experiences to motivate him or her. </li>
+            <li className="category-text">And I helping somebody around me by sharing and talking on my previous experiences to motivate him or her. </li>
         </ul>
     </>
 }

@@ -7,6 +7,7 @@ import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
 import Education from "./Components/Education";
 import Courses from "./Components/Courses";
+import Experience from "./Components/Experience";
 
 export default function HomePage() {
   return (
@@ -20,8 +21,8 @@ export default function HomePage() {
         <div id="skills-container" className="section"><Skills/></div>
         <div id="education-container" className="section"><Education/></div>
         <div id="courses-container" className="section"><Courses/></div>
-        {/*<div id="experience-section" className="section"><AboutMe/></div>*/}
-        {/*<div id="Contact-section" className="section"><AboutMe/></div>*/}
+        <div id="experience-container" className="section"><Experience/></div>
+
         <div id="home-page-button">
           <button>
             <img className="list-icon" src={homeIcon} alt="home-icon"/>
@@ -38,8 +39,7 @@ function displayLinks() {
     {text: 'Skills'},
     {text: 'Education'},
     {text: 'Courses'},
-    {text: 'Experience'},
-    {text: 'Contact'},
+    {text: 'Experience'}
   ]);
   return <>
     <ul>{links.map((link, index) =>
