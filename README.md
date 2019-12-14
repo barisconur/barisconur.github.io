@@ -1,12 +1,9 @@
-The website was deployed. Just go: https://master.d1jzqzo3g6sx7h.amplifyapp.com/
-
-
 This project was bootstrapped with [Create React HomePage](https://github.com/facebook/create-react-app).
 
-### `0. git clone https://github.com/barisconur/cemal-website.git`
+### `0. git clone https://github.com/barisconur/home.git`
 Clone the project to your local PC with this command.
 
-### `1. cd todo-app`
+### `1. cd home`
 Get into the project directory with this command.
 
 ### `2. yarn install`
