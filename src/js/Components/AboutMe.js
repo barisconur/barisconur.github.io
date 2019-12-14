@@ -21,8 +21,11 @@ export default function AboutMe() {
 					<div id="summary-panel" className="col-xs-12 col-md-4">
 						<h4 className="category-title">{about.title}</h4>
 						<p className="category-text">{about.summary}</p>
-						<p className="category-text">If you need something built, you can contact me via {<a href={"#Contact"}>email</a>} or ping me via twitter.</p>
-						<div id="social-media-panel"><SocialFollow/></div>
+						<p className="category-text">If you need something built, you can contact me via email or ping me via twitter.</p>
+						<div id="social-media-panel">
+							<SocialFollow/>
+							<p id="email" className="category-text">Contact: barisconur@gmail.com</p>
+						</div>
 					</div>
 
 					<div id="interest-panel" className="col-xs-12 col-md-4">

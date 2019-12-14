@@ -37,10 +37,10 @@ function displayLinks() {
     {text: 'Courses'},
     {text: 'Experience'}
   ]);
-  return <>
+  return <nav id="links">
     <ul>{links.map((link, index) =>
       <li className="link-container" key={index}> <AnchorLink className="link" href={"#" + link.text}>{link.text}</AnchorLink></li>
       )}
     </ul>
-  </>
+  </nav>
 }

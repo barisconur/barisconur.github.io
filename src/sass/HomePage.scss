@@ -1,6 +1,10 @@
 @import 'mixins';
 @import 'variables';
 
+#email {
+  padding-top: 10px;
+}
+
 .section {
   margin: 0 auto;
   padding:4% 0;
@@ -11,7 +15,7 @@
     padding-bottom: 4%;
 
     .jumbotron-line {
-      border-top: 3px solid;
+      border-top: 2px solid;
       margin-left: auto;
       margin-right: auto;
       float: none;
@@ -52,11 +56,11 @@ a:hover {
 #home-page-container {
   width: 100%;
   height: 100%;
-  color: white;
-  background-image: url('../images/home-page-background.jpeg');
+  background-image: url('../images/background-1.jpg');
   @include addResponsiveBackgroundImage;
 
   #header {
+    color: #b4b471;
     @include locateDivAtCenter;
     #main-header {
       #main-header-text {
@@ -67,12 +71,11 @@ a:hover {
 
     #header-line {
       margin-left: 7.5%;
-      border-top: 3px solid white;
+      border-top: 2.5px solid #785b07;
       width: 85%;
     }
 
     #secondary-header {
-      padding-top: 2%;
       text-align: center;
       #secondary-header-text {
         font-size: $large-font-size;
@@ -82,13 +85,9 @@ a:hover {
 
   #links {
     width: 100%;
-    height: 60px;
     position: absolute;
-    bottom: 18%;
-    margin: 0 auto;
+    bottom: 2.5%;
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   ul {
@@ -97,6 +96,9 @@ a:hover {
     padding: 0;
     list-style: none;
     display: flex;
+    li {
+      margin-right: 1.5%;
+    }
   }
 
   .link-container {
@@ -121,6 +123,11 @@ a:hover {
 
 #About {
   background-color: #EEEEEE;
+  .title-panel {
+    .jumbotron-line {
+      border-color: $about-line-color;
+    }
+  }
   .container {
     .row {
       #profile-image-panel { .img-fluid { height: 444px; } }
@@ -160,10 +167,14 @@ a:hover {
 }
 
 #Skills {
+  .title-panel {
+    .jumbotron-line {
+      border-color: $skills-line-color;
+    }
+  }
   #skills-intro-panel {
     padding-bottom: 3%;
   }
-
   #logos-panel {
     justify-content: center;
     padding-top: 2%;
@@ -202,7 +213,20 @@ a:hover {
   }
 }
 
+#Courses {
+  .title-panel {
+    .jumbotron-line {
+      border-color: $courses-line-color;
+    }
+  }
+}
+
 #Education {
+  .title-panel {
+    .jumbotron-line {
+      border-color: $education-line-color;
+    }
+  }
   background-color: #EEEEEE;
   .schools-panel {
     text-align:center;
@@ -225,6 +249,11 @@ a:hover {
 }
 
 #Experience {
+  .title-panel {
+    .jumbotron-line {
+      border-color: $experience-line-color;
+    }
+  }
   background-color: #EEEEEE;
   .experiences-panel {
     text-align:center;
@@ -287,19 +316,21 @@ a:hover {
 
   #home-page-container {
     #header {
-      top: 27.5%;
+      top: 28.5%;
       width: 100%;
       #main-header {
         text-align: center;
+        margin-bottom: 5%;
         #main-header-text {
           font-size: $large-font-size;
         }
       }
       #header-line {
-        margin-left: 7.5%;
-        border-top: 3px solid white;
+        width: 85%;
+        margin-left: 5%;
       }
       #secondary-header {
+        margin-top: 5%;
         #secondary-header-text {
           font-size: $medium-font-size;
         }
@@ -308,7 +339,7 @@ a:hover {
 
     #links {
       text-align: center;
-      top: 41.5%;
+      top: 34%;
       height: initial;
       ul {
         display: grid;
@@ -320,9 +351,6 @@ a:hover {
     #profile-image-panel {
       text-align: center;
       display: block;
-      padding-bottom: 20px;
-    }
-    #summary-panel {
       padding-bottom: 20px;
     }
   }
