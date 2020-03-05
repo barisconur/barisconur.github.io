@@ -56,11 +56,11 @@ a:hover {
 #home-page-container {
   width: 100%;
   height: 100%;
-  background-image: url('../images/background-1.jpg');
+  background-image: url('../images/background.jpg');
   @include addResponsiveBackgroundImage;
 
   #header {
-    color: #b4b471;
+    color: $header-color;
     @include locateDivAtCenter;
     #main-header {
       #main-header-text {
@@ -71,7 +71,7 @@ a:hover {
 
     #header-line {
       margin-left: 7.5%;
-      border-top: 2.5px solid #785b07;
+      border-top: 2.5px solid $header-color;
       width: 85%;
     }
 
@@ -217,6 +217,33 @@ a:hover {
   }
 }
 
+#Education {
+  .title-panel {
+    .jumbotron-line {
+      border-color: $education-line-color;
+    }
+  }
+  background-color: #EEEEEE;
+  .schools-panel {
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    #school {
+      max-width: 1250px !important;
+      #department {
+        color: orangered;
+      }
+
+      .category-title {
+        padding-bottom: 0px;
+      }
+      .category-text {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
 #Courses {
   .title-panel {
     .jumbotron-line {
@@ -225,7 +252,7 @@ a:hover {
   }
 }
 
-#Education {
+#Projects {
   .title-panel {
     .jumbotron-line {
       border-color: $education-line-color;
@@ -258,7 +285,6 @@ a:hover {
       border-color: $experience-line-color;
     }
   }
-  background-color: #EEEEEE;
   .experiences-panel {
     text-align:center;
     align-items: center;
@@ -291,6 +317,7 @@ a:hover {
     }
   }
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .title-text {
     font-size: $medium-font-size;

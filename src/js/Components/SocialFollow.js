@@ -1,9 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React, {Fragment} from 'react';
-import '../../sass/HomePage.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faTwitter, faLinkedin, faGithubSquare, faMedium } from "@fortawesome/free-brands-svg-icons"
 import about from '../../json/aboutMe';
+
+import '../../sass/HomePage.scss';
 
 export default function SocialFollow() {
   return (

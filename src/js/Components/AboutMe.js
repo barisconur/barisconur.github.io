@@ -1,8 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React,{Fragment} from "react";
-import "../../sass/HomePage.scss";
-import about from "../../json/aboutMe";
 import SocialFollow from "./SocialFollow";
+import about from "../../json/aboutMe";
+
+import "../../sass/HomePage.scss";
 
 export default function AboutMe() {
 	return (
@@ -15,13 +16,13 @@ export default function AboutMe() {
 			<div className="container">
 				<div className="row">
 					<div id="profile-image-panel" className="col-xs-12 col-md-4">
-						<img src={require('../../images/profile-photo.jpg')} className="img-fluid" alt="profile"/>
+						<img src={require('../../images/profile-photo.jpeg')} className="img-fluid" alt="profile"/>
 					</div>
 
 					<div id="summary-panel" className="col-xs-12 col-md-4">
 						<h4 className="category-title">{about.title}</h4>
 						<p className="category-text">{about.summary}</p>
-						<p className="category-text">If you need something built, you can contact me via email or ping me via twitter.</p>
+
 						<div id="social-media-panel">
 							<SocialFollow/>
 							<p id="email" className="category-text">Contact: barisconur@gmail.com</p>
@@ -31,9 +32,7 @@ export default function AboutMe() {
 					<div id="interest-panel" className="col-xs-12 col-md-4">
 						<h4 className="category-title">{about.title2}</h4>
 						<p className="category-text">{about.title2Description}</p>
-						<div className="interest-list">
-							{ displayInterestList() }
-						</div>
+						<div className="interest-list"> { displayInterestList() } </div>
 					</div>
 
 				</div>

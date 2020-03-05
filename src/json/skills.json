@@ -4,21 +4,20 @@
     {
       "title": "Computer Skills",
       "skills": [
-        "MS Office (Word, Excel, Power Point)",
-        "Intermediate level Java",
-        "Intermediate level Git and Github",
-        "Intermediate level HTML, CSS and JavaScript",
+        "Intermediate level Java and Javascript",
         "Intermediate level React.js",
         "Beginner level Vue.js",
-        "Beginner level Unity Game Development in C#"
+        "Beginner level Python",
+        "MySQL",
+        "Cloud Technologies: AWS and Firebase",
+        "Git and Github"
       ]
     },
     {
       "title": "Language Skills",
       "skills": [
         "Written and oral fluency in English",
-        "Beginner level German",
-        "Beginner level Spanish"
+        "Beginner(A1) Level German"
       ]
     }
   ]

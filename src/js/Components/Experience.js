@@ -1,10 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React,{Fragment} from "react";
-import "../../sass/HomePage.scss";
+
 import experiences from "../../json/experience";
 import about from "../../json/aboutMe";
 
 import locationIcon from "../../images/location-sign.svg";
+import "../../sass/HomePage.scss";
 
 export default function Experience() {
 	return (

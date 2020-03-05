@@ -14,5 +14,20 @@
 
       "graduateData": "2015"
     }
+  ],
+  "projects" :[
+    {
+      "name": "Video Streaming over HTTP",
+      "description": "Developed a video streaming system, used NGINX as the web server and AWS as the cloud provider. Encoded the input of Webcam and transferred to server, using RTMP, client then requests and plays the video segments using HLS.js player."
+    },
+
+    {
+      "name": "Intrusion Detection System",
+      "description": "Given a codebase in C, I have rewritten and developed the project in Python to detect port scans by inspecting TCP and UDP packets and looking for multiple known attack signature"
+    },
+    {
+      "name": "Ozu Course Rating",
+      "description": "Built a website together with 5 CS students that allows students of Ozyegin University to evaluate the courses they have taken and see the other students’ comments. Technologies: Vue.js, Bootstrap, Firebase Cloud "
+    }
   ]
 }

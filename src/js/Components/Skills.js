@@ -1,9 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React,{Fragment} from "react";
-import "../../sass/HomePage.scss";
-import skills from "../../json/skills";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithubSquare,faJs, faReact, faVuejs, faJava} from "@fortawesome/free-brands-svg-icons";
+import skills from "../../json/skills";
+
+import "../../sass/HomePage.scss";
 
 export default function Skills() {
 	return (

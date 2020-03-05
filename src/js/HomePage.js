@@ -2,13 +2,16 @@
 import React, {Fragment} from 'react';
 import ScrollUpButton from "react-scroll-up-button";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import "../sass/HomePage.scss";
+
 import Jumbotron from "./Components/Jumbotron";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
 import Education from "./Components/Education";
 import Courses from "./Components/Courses";
+import Projects from "./Components/Projects"
 import Experience from "./Components/Experience";
+
+import "../sass/HomePage.scss";
 
 export default function HomePage() {
   return (
@@ -22,6 +25,7 @@ export default function HomePage() {
       <div id="Skills" className="section"><Skills/></div>
       <div id="Education" className="section"><Education/></div>
       <div id="Courses" className="section"><Courses/></div>
+      <div id="Projects" className="section"><Projects/></div>
       <div id="Experience" className="section"><Experience/></div>
 
       <div id="home-page-button"><ScrollUpButton/></div>
@@ -35,6 +39,7 @@ function displayLinks() {
     {text: 'Skills'},
     {text: 'Education'},
     {text: 'Courses'},
+    {text: 'Projects'},
     {text: 'Experience'}
   ]);
   return <nav id="links">

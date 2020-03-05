@@ -1,7 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React,{Fragment} from "react";
-import "../../sass/HomePage.scss";
 import education from "../../json/education";
+
+import "../../sass/HomePage.scss";
+
 export default function Education() {
 	return (
 			<>
@@ -9,6 +11,7 @@ export default function Education() {
 					<h2 className="title-text">Education</h2>
 					<hr className="jumbotron-line"/>
 				</div>
+        
 				<div className="schools-panel">{ displaySchools() }</div>
 			</>
 	);
