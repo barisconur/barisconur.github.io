@@ -13,8 +13,8 @@ export default function Courses() {
 				</div>
 
 				<div className="container">
-					<table className="table">
-						<thead className="thead-dark">
+					<table className="table table-striped table-dark">
+						<thead>
 						<tr>
 							<th scope="col">Course Code</th>
 							<th scope="col">Course Name</th>
