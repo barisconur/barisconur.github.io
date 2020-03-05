@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React HomePage](https://github.com/facebook/create-react-app).
 
-### `0. git clone https://github.com/barisconur/home.git`
+### `0. git clone https://github.com/barisconur/barisconur.github.io.git`
 Clone the project to your local PC with this command.
 
 ### `1. cd home`
