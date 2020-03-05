@@ -17,6 +17,7 @@ export default function HomePage() {
   return (
     <>
       <div id="home-page-container">
+        <h2 id="last-modified-text">Last modified: 05.03.2020</h2>
         <div id="header"><Jumbotron/></div>
         <div id="links">{ displayLinks() }</div>
       </div>
