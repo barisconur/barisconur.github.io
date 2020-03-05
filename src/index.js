@@ -9,7 +9,7 @@ import BlogPage from './js/BlogPage';
 const routing = (
   <Router>
     <div>
-      <Route exact path="/home" component={HomePage} />
+      <Route exact path="/" component={HomePage} />
       <Route path="/blog" component={BlogPage} />
     </div>
   </Router>

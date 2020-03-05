@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.4242328c.chunk.css",
-    "main.js": "/home/static/js/main.50c3d778.chunk.js",
-    "main.js.map": "/home/static/js/main.50c3d778.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.f0915d8d.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.f0915d8d.js.map",
-    "static/css/2.b0bb7f2c.chunk.css": "/home/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.733bb730.chunk.js": "/home/static/js/2.733bb730.chunk.js",
-    "static/js/2.733bb730.chunk.js.map": "/home/static/js/2.733bb730.chunk.js.map",
-    "index.html": "/home/index.html",
-    "precache-manifest.7ecf4bbb09a8136f4b5b05ff40846a97.js": "/home/precache-manifest.7ecf4bbb09a8136f4b5b05ff40846a97.js",
-    "service-worker.js": "/home/service-worker.js",
-    "static/css/2.b0bb7f2c.chunk.css.map": "/home/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.4242328c.chunk.css.map": "/home/static/css/main.4242328c.chunk.css.map",
-    "static/media/HomePage.scss": "/home/static/media/background.379d5a49.jpg",
-    "static/media/location-sign.svg": "/home/static/media/location-sign.6c1709b0.svg",
-    "static/media/profile-photo.jpeg": "/home/static/media/profile-photo.649d52b0.jpeg"
+    "main.css": "/static/css/main.b7021b76.chunk.css",
+    "main.js": "/static/js/main.50c3d778.chunk.js",
+    "main.js.map": "/static/js/main.50c3d778.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f8e9f13b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f8e9f13b.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.733bb730.chunk.js": "/static/js/2.733bb730.chunk.js",
+    "static/js/2.733bb730.chunk.js.map": "/static/js/2.733bb730.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.17c673bd4c6d3163061178cb57bd3785.js": "/precache-manifest.17c673bd4c6d3163061178cb57bd3785.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.b7021b76.chunk.css.map": "/static/css/main.b7021b76.chunk.css.map",
+    "static/media/HomePage.scss": "/static/media/background.379d5a49.jpg",
+    "static/media/location-sign.svg": "/static/media/location-sign.6c1709b0.svg",
+    "static/media/profile-photo.jpeg": "/static/media/profile-photo.649d52b0.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0915d8d.js",
+    "static/js/runtime-main.f8e9f13b.js",
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.733bb730.chunk.js",
-    "static/css/main.4242328c.chunk.css",
+    "static/css/main.b7021b76.chunk.css",
     "static/js/main.50c3d778.chunk.js"
   ]
 }
