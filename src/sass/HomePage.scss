@@ -121,10 +121,29 @@ a:hover {
       text-decoration: none;
     }
     .link {
+      position: relative;
       color: #17962f;
     }
     .link:hover {
       color: #27B02C;
+    }
+
+    .link:after {
+      content: '';
+      position: absolute;
+      width: 0; height: 2px;
+      margin-top: -10px;
+      display: block;
+      right: 0;
+      background: #27B02C;
+      transition: width .0.005s ease;
+      -webkit-transition: width .3s ease;
+    }
+     
+    .link:hover:after {
+      width: 100%;
+      left: 0;
+      background: #27B02C;
     }
   }
 }
