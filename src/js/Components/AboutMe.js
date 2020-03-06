@@ -21,11 +21,11 @@ export default function AboutMe() {
 
 					<div id="summary-panel" className="col-xs-12 col-md-4">
 						<h4 className="category-title">{about.title}</h4>
-						<p className="category-text">{about.summary}</p>
+						<p className="category-text">{about.summary} Please feel free to contact!</p>
 
 						<div id="social-media-panel">
+              <p id="email" className="category-text">Email: baris.onur@ozu.edu.tr</p>
 							<SocialFollow/>
-							<p id="email" className="category-text">Contact: barisconur@gmail.com</p>
 						</div>
 					</div>
 
@@ -47,7 +47,6 @@ function displayInterestList() {
 			<li className="category-text">I'm <b>playing the piano</b> for a long time.</li>
 			<li className="category-text">I love <b>playing chess</b> online.</li>
 			<li className="category-text">I really enjoy watching conferences such as <b>Cppcon</b>, <b>TedTalks</b>, and so on.</li>
-			<li className="category-text">And I helping somebody around me by sharing and talking on my previous experiences to motivate him or her. </li>
 		</ul>
 	</>
 }

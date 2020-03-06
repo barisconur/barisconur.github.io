@@ -10,16 +10,16 @@ export default function SocialFollow() {
   return (
     <>
       <a href={about.URL[0]} rel="noopener noreferrer" target="_blank" className="twitter social">
-        <FontAwesomeIcon icon={faTwitter} size="2x"/>
+        <FontAwesomeIcon icon={faTwitter} size="3x"/>
       </a>
       <a href={about.URL[1]} rel="noopener noreferrer" target="_blank" className="github social">
-        <FontAwesomeIcon icon={faGithubSquare} size="2x"/>
+        <FontAwesomeIcon icon={faGithubSquare} size="3x"/>
       </a>
       <a href={about.URL[2]} rel="noopener noreferrer" target="_blank"className="linkedIn social">
-        <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+        <FontAwesomeIcon icon={faLinkedin} size="3x"/>
       </a>
       <a href={about.URL[3]} rel="noopener noreferrer" target="_blank" className="medium social">
-        <FontAwesomeIcon icon={faMedium} size="2x"/>
+        <FontAwesomeIcon icon={faMedium} size="3x"/>
       </a>
     </>
   )

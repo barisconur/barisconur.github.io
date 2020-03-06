@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, {Fragment} from 'react';
 import ScrollUpButton from "react-scroll-up-button";
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Link } from 'react-router-dom';
 
 import Jumbotron from "./Components/Jumbotron";
 import AboutMe from "./Components/AboutMe";
@@ -17,9 +18,17 @@ export default function HomePage() {
   return (
     <>
       <div id="home-page-container">
+
         <h2 id="last-modified-text">Last modified: 05.03.2020</h2>
+        <div id="blog-forward-container">
+          <Link to="/blog">
+            <button type="button" class="btn btn-dark btn-lg">BLOG</button>
+          </Link>    
+        </div> 
+
         <div id="header"><Jumbotron/></div>
         <div id="links">{ displayLinks() }</div>
+
       </div>
 
       <div id="About" className="section"><AboutMe/></div>
