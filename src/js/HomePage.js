@@ -22,7 +22,7 @@ export default function HomePage() {
         <h2 id="last-modified-text">Last modified: 05.03.2020</h2>
         <div id="blog-forward-container">
           <Link to="/blog">
-            <button type="button" class="btn btn-dark btn-lg">BLOG</button>
+            <button type="button" className="btn btn-dark btn-lg">BLOG</button>
           </Link>    
         </div> 
 
