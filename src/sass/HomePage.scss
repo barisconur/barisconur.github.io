@@ -78,6 +78,7 @@ a:hover {
     @include locateDivAtCenter;
     #main-header {
       #main-header-text {
+        text-align: center;
         font-size: $extra-large-font-size;
         font-weight: 700;
         animation-name: moveLeft;
@@ -237,7 +238,7 @@ a:hover {
 
 #Skills {
   #skills-intro-panel {
-    padding-bottom: 3%;
+    padding-bottom: 2%;
   }
   #logos-panel {
     justify-content: center;

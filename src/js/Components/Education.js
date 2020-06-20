@@ -33,12 +33,6 @@ function displaySchools() {
 }
 
 function displayGraduationStatus(school) {
-	let graduationYear = parseInt(school.graduateData);
-	let currentYear = new Date().getFullYear();
-
-	if (graduationYear === currentYear || graduationYear === currentYear + 1) {
-		return <p className="category-text"><strong>Graduating in: </strong>{"Summer " + school.graduateData}</p>
-	}
 	return <p className="category-text"><strong>Graduated: </strong> {school.graduateData}</p>
 }
 

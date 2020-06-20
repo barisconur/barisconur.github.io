@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
-import React,{Fragment} from "react";
+import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithubSquare,faJs, faReact, faVuejs, faJava} from "@fortawesome/free-brands-svg-icons";
+import {faGithubSquare,faJs, faReact, faJava} from "@fortawesome/free-brands-svg-icons";
 import skills from "../../json/skills";
 
 import "../../sass/HomePage.scss";
@@ -68,11 +68,6 @@ function displaySocialMediaIcons() {
 			class: "react social",
 			icon: faReact,
 			url: "https://reactjs.org/"
-		},
-		{
-			class: "vue social",
-			icon: faVuejs,
-			url: "https://vuejs.org/"
 		},
 		{
 			class: "java social",

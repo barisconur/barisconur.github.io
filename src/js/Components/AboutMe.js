@@ -44,8 +44,9 @@ export default function AboutMe() {
 function displayInterestList() {
 	return <>
 		<ul>
-			<li className="category-text">I'm <b>playing the piano</b> for a long time.</li>
-			<li className="category-text">I love <b>playing chess</b> online.</li>
+			<li className="category-text">I'm <b>playing chess</b> online at lichess.</li>
+			<li className="category-text">I like playing <b>Hearthstone</b>, <b>CS:GO</b> and other competitive games.</li>
+			<li className="category-text">I'm <b>playing the piano</b> for over 10 years.</li>
 			<li className="category-text">I really enjoy watching conferences such as <b>Cppcon</b>, <b>TedTalks</b>, and so on.</li>
 		</ul>
 	</>

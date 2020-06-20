@@ -1,15 +1,15 @@
 {
-  "intro": "I have experienced with a bunch of programming languages such as Java, Javascript, Python, C++, C#, C, Haskell and so on. But I often use Java while trying to solve an algorithm problem or any project given as an assignment. Also I use Javascript frameworks such as React, Vue while coding frontend side of the web applications. ",
+  "intro": "I have experienced with a bunch of programming languages such as Java, Javascript, Python, C++, C#, and C in the university. I usually use Java and Javascript frameworks in order to develop web services and applications.",
   "contents": [
     {
       "title": "Computer Skills",
       "skills": [
         "Intermediate level Java and Javascript",
-        "Intermediate level React.js",
-        "Beginner level Vue.js",
         "Beginner level Python",
+        "Intermediate level React.js",
+        "Beginner level Express.js",
         "MySQL",
-        "Cloud Technologies: AWS and Firebase",
+        "Cloud Technologies: AWS, Firebase, Mongo",
         "Git and Github"
       ]
     },
