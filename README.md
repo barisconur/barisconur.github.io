@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React HomePage](https://github.com/fa
 ### `0. git clone https://github.com/barisconur/Online-Portfolio.git`
 Clone the project to your local PC with this command.
 
-### `1. cd home`
+### `1. cd Online-Portfolio`
 Get into the project directory with this command.
 
 ### `2. yarn install`
