@@ -20,11 +20,11 @@ export default function HomePage() {
       <div id="home-page-container">
 
         <h2 id="last-modified-text">Last modified: 20.06.2020</h2>
-        <div id="blog-forward-container">
+        {/* <div id="blog-forward-container">
           <Link to="/blog">
             <button type="button" className="btn btn-dark btn-lg">BLOG</button>
           </Link>    
-        </div> 
+        </div>  */}
 
         <div id="header"><Jumbotron/></div>
         <div id="links">{ displayLinks() }</div>

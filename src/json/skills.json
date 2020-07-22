@@ -4,11 +4,14 @@
     {
       "title": "Computer Skills",
       "skills": [
-        "Intermediate level Java and Javascript",
-        "Beginner level Python",
+        "Intermediate level Java",
+        "Intermediate level Javascript",
         "Intermediate level React.js",
+        "Beginner level Flutter",
+        "Beginner level Python",
+        "Beginner level Vue.js",
         "Beginner level Express.js",
-        "MySQL",
+        "DBMS technologies: MySQL and MongoDB",
         "Cloud Technologies: AWS, Firebase, Mongo",
         "Git and Github"
       ]
