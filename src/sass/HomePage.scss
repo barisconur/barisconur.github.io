@@ -3,6 +3,7 @@
 
 #email {
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .section {
@@ -200,6 +201,7 @@ a:hover {
 
       #summary-panel {
         #social-media-panel {
+          float: left;
           a.social {
             margin: 0 1rem;
             transition: transform 250ms;
@@ -208,10 +210,6 @@ a:hover {
 
           a.social:hover {
             transform: translateY(-2px);
-          }
-
-          a.twitter {
-            color: #49a1eb;
           }
 
           a.github {
@@ -357,6 +355,14 @@ a:hover {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  #social-media-panel {
+    float: none !important;
+  }
+
+  #email {
+    text-align: center;
+  }
+
   .title-text {
     font-size: $medium-font-size;
   }
@@ -395,11 +401,11 @@ a:hover {
         }
       }
       #header-line {
-        width: 85%;
+        width: 90%;
         margin-left: 5%;
       }
       #secondary-header {
-        margin-top: 5%;
+        margin-top: none;
         #secondary-header-text {
           font-size: $medium-font-size;
         }
@@ -408,7 +414,7 @@ a:hover {
 
     #links {
       text-align: center;
-      top: 34%;
+      top: 25%;
       height: initial;
       ul {
         display: grid;
@@ -430,13 +436,22 @@ a:hover {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  #social-media-panel {
+    float: none;
+  }
+
+   #email {
+    text-align: center;
+   }
+  
   .title-text {
-    font-size: $medium-font-size;
+    font-size: $ideal-font-size;
   }
 
   .category-title {
     text-align: center;
-    font-size: $ideal-font-size;
+    font-size: $small-font-size;
   }
 
   .category-text {
@@ -447,12 +462,12 @@ a:hover {
     #header {
       #main-header {
         #main-header-text {
-          font-size: $large-font-size;
+          font-size: $medium-font-size;
         }
       }
       #secondary-header {
         #secondary-header-text {
-          font-size: $medium-font-size;
+          font-size: $ideal-font-size;
         }
       }
     }

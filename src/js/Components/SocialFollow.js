@@ -1,27 +1,40 @@
 // eslint-disable-next-line no-unused-vars
-import React, {Fragment} from 'react';
+import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faTwitter, faLinkedin, faGithubSquare, faMedium } from "@fortawesome/free-brands-svg-icons"
+import {faLinkedin, faGithubSquare, faMedium } from "@fortawesome/free-brands-svg-icons"
 import about from '../../json/aboutMe';
 
 import '../../sass/HomePage.scss';
 
-export default function SocialFollow() {
-  return (
-    <>
-      <a href={about.URL[0]} rel="noopener noreferrer" target="_blank" className="twitter social">
-        <FontAwesomeIcon icon={faTwitter} size="3x"/>
-      </a>
-      <a href={about.URL[1]} rel="noopener noreferrer" target="_blank" className="github social">
-        <FontAwesomeIcon icon={faGithubSquare} size="3x"/>
-      </a>
-      <a href={about.URL[2]} rel="noopener noreferrer" target="_blank"className="linkedIn social">
-        <FontAwesomeIcon icon={faLinkedin} size="3x"/>
-      </a>
-      <a href={about.URL[3]} rel="noopener noreferrer" target="_blank" className="medium social">
-        <FontAwesomeIcon icon={faMedium} size="3x"/>
-      </a>
-    </>
-  )
+export default function SocialFollow(props) {
+  console.log(props.browserWidth);
+  if (props.browserWidth <= 768) {
+    return (
+      <>
+        <a href={about.URL[0]} rel="noopener noreferrer" target="_blank" className="github social">
+          <FontAwesomeIcon icon={faGithubSquare} size="2x"/>
+        </a>
+        <a href={about.URL[1]} rel="noopener noreferrer" target="_blank"className="linkedIn social">
+          <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+        </a>
+        <a href={about.URL[2]} rel="noopener noreferrer" target="_blank" className="medium social">
+          <FontAwesomeIcon icon={faMedium} size="2x"/>
+        </a>
+      </>
+    )
+  } else {
+    return (
+      <>
+        <a href={about.URL[0]} rel="noopener noreferrer" target="_blank" className="github social">
+          <FontAwesomeIcon icon={faGithubSquare} size="3x"/>
+        </a>
+        <a href={about.URL[1]} rel="noopener noreferrer" target="_blank"className="linkedIn social">
+          <FontAwesomeIcon icon={faLinkedin} size="3x"/>
+        </a>
+        <a href={about.URL[2]} rel="noopener noreferrer" target="_blank" className="medium social">
+          <FontAwesomeIcon icon={faMedium} size="3x"/>
+        </a>
+      </>
+    )
+  }
 }
-

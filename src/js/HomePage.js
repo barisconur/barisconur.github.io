@@ -1,8 +1,7 @@
 // eslint-disable-next-line no-unused-vars
-import React, {Fragment} from 'react';
+import React from 'react';
 import ScrollUpButton from "react-scroll-up-button";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Link } from 'react-router-dom';
 
 import Jumbotron from "./Components/Jumbotron";
 import AboutMe from "./Components/AboutMe";

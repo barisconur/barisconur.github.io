@@ -79,7 +79,7 @@ function displaySocialMediaIcons() {
 	return <>
 		{links.map((link, index) => (
 				<a href={link.url} rel="noopener noreferrer" target="_blank" className={link.class} key={index}>
-					<FontAwesomeIcon icon={link.icon} size="8x" />
+					<FontAwesomeIcon icon={link.icon} size="4x" />
 				</a>
 		))}
 		</>

@@ -1,11 +1,12 @@
 // eslint-disable-next-line no-unused-vars
-import React,{Fragment} from "react";
+import React from "react";
 import SocialFollow from "./SocialFollow";
 import about from "../../json/aboutMe";
 
 import "../../sass/HomePage.scss";
 
 export default function AboutMe() {
+	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
 	return (
 		<>
 			<div className="title-panel">
@@ -23,10 +24,8 @@ export default function AboutMe() {
 						<h4 className="category-title">{about.title}</h4>
 						<p className="category-text">{about.summary} Please feel free to contact!</p>
 
-						<div id="social-media-panel">
-              <p id="email" className="category-text">Email: baris.onur@ozu.edu.tr</p>
-							<SocialFollow/>
-						</div>
+						<p id="email" className="category-text"> Contact: {about.email}</p>
+						<div id="social-media-panel"><SocialFollow browserWidth={vw}/></div>
 					</div>
 
 					<div id="interest-panel" className="col-xs-12 col-md-4">
