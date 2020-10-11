@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Route, HashRouter as Router} from 'react-router-dom'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import { Route, HashRouter as Router } from 'react-router-dom'
-
-import HomePage from './js/HomePage'; 
-import BlogPage from './js/BlogPage';
+import HomePage from './pages/home/HomePage.js'; 
+import BlogPage from './pages/blog/BlogPage.js';
 
 const routing = (
   <Router>
     <div>
-      <Route exact path="/" component={HomePage} />
-      <Route path="/blog" component={BlogPage} />
+      <Route exact path="/" component={HomePage}/>
+      <Route path="/blog" component={BlogPage}/>
     </div>
   </Router>
 )
