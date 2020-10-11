@@ -1,8 +1,8 @@
 import React from 'react';
-import AboutMe from './sections/AboutMe';
-import Experience from './sections/Experience';
-import Projects from './sections/Projects';
-import Education from './sections/Education';
+import AboutMe from './sections/AboutMe.js';
+import Experience from './sections/Experience.js';
+import Projects from './sections/Projects.js';
+import Education from './sections/Education.js';
 import './Sections.scss';
 
 export default function Sections() {

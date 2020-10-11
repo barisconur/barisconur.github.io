@@ -34,8 +34,8 @@
   @include addResponsiveBackgroundImage; 
   width: 100%;
   height: 100vh;
-  //background-image: url('../../styles/images/star.jpg');
-  
+  background-image: url('../../styles/images/background.jpg');
+    
   #nav-bar {
     position: absolute;
     top: 3.5%;
@@ -87,7 +87,7 @@
     width: min-content;
 
     #greet-text {
-      width: 625px;
+      width: 600px;
       color: $navbar-link-hover-color;
       padding-bottom: 1vh;
       letter-spacing: 1.5px;

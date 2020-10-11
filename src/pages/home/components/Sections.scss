@@ -1,10 +1,11 @@
 @import '../../../styles/global-sass/variables.scss';
 
 #sections {
-  max-width: 900px;
-  height: 400px;
-  margin: 0 auto;
+  background-color: $theme-color;
+
   .section {
+    max-width: 900px;
+    margin: 0 auto;
     padding: 100px 0px;
   
     .title-panel {
