@@ -11,7 +11,7 @@ export default function Education() {
 		</div>
 
     <div className="inner">
-        //TODO
+        <h2>TODO</h2>
     </div>
   </>
   )

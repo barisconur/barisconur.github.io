@@ -11,7 +11,7 @@ export default function Experience() {
 		</div>
 
     <div className="inner">
-        //TODO
+        <h2>TODO</h2>
     </div>
   </>
   )

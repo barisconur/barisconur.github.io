@@ -11,7 +11,7 @@ export default function Projects() {
 		</div>
 
 		<div className="inner">
-        //TODO
+        <h2>TODO</h2>
     </div>
 	</>
 	)
