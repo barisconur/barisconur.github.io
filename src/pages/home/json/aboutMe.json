@@ -1,0 +1,18 @@
+{
+  "paragraphs" : [
+    "Hello! I'm Baris, a software support engineer based in Teknopark, Istanbul.",
+    "Web development, network security and big data are the primary fields that I want to enhance my knowledge set.",
+    "Here are the few technologies I've been working recently:"
+  ],
+  "skillSet": [
+    "ETL", 
+    "Oracle PL/SQL",
+    "PostgreSQL",
+    "HTML & (S)CSS",
+    "Javascript (ES6+)",
+    "React",
+    "Node.js",
+    "Express",
+    "Flutter"
+  ]
+}

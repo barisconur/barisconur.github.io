@@ -1,0 +1,27 @@
+@import '../../../styles/global-sass/variables.scss';
+
+#sections {
+  max-width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  .section {
+    padding: 100px 0px;
+  
+    .title-panel {
+      padding-bottom: 1%;
+
+      .title-text {
+        color: $bold-text-color;
+        font-weight: 700;
+        font-size: $l-fs;
+      }
+
+      .section-line {
+        border-top: solid;
+        width: 175px;
+        color: $navbar-link-hover-color;
+        border-color: $navbar-link-hover-color;
+      }
+    }
+  }
+}
