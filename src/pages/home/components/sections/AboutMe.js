@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../../../content/aboutMe.json";
+import me from "../../../../content/me.json";
 import './AboutMe.scss';
 
 export default function AboutMe() {
