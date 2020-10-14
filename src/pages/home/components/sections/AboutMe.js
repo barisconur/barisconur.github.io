@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../json/aboutMe.json";
+import me from "../../../../content/aboutMe.json";
 import './AboutMe.scss';
 
 export default function AboutMe() {
@@ -16,7 +16,7 @@ export default function AboutMe() {
 				<div className="skill-set">{renderSkillset()}</div>
 			</div>
 			<div className="profile-panel">
-				<img src={require('../../../../styles/images/profile-image2.jpeg')} className="img-fluid" alt="profile"/>
+				<img src={require('../../../../styles/images/me.jpeg')} className="img-fluid" alt="profile"/>
 			</div>
 		</div>
 	</>

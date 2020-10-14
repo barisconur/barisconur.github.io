@@ -1,5 +1,6 @@
 import React from 'react';
-import person from '../../json/jumbotron';
+import person from '../../../../content/jumbotron.json';
+import './Jumbotron.scss';
 
 export default function Jumbotron() {
   return (

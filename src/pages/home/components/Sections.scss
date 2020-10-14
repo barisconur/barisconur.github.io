@@ -1,7 +1,7 @@
-@import '../../../styles/global-sass/variables.scss';
+@import '../../../styles/sass/variables.scss';
 
 #sections {
-  background-color: $theme-color;
+  background-color: $navy;
 
   .section {
     max-width: 900px;
