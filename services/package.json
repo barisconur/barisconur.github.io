@@ -1,0 +1,14 @@
+{
+  "name": "barisconur.github.io-services",
+  "version": "1.0.0",
+  "description": "Backend side of barisconur.github.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Baris Cemal Onur",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
