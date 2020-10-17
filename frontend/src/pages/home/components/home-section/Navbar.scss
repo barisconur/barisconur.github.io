@@ -33,20 +33,24 @@
         font-size: $xxs-fs;
         letter-spacing: 1px;
       }
-      
+      .btn:focus {
+        outline: none;
+        box-shadow: none;
+      }
       #resume-btn {
-        color: $navbar-link-hover-color;
-        border-color: $navbar-link-hover-color;
+        color: $resume-btn-color;
+        border-color: $resume-btn-hover-color;
       }
-
       #resume-btn:hover {
-        background-color: $resume-btn-hover-color;
+        background-color:  $resume-btn-hover-color;
       }
-
+      #blog-btn {
+        color: $blog-btn-color;
+        border-color: $blog-btn-hover-color;
+      }
       #blog-btn:hover {
-        color: #dc3545;
-        background-color: $dark-red;
+        background-color: $blog-btn-hover-color;
       }
     }
   }
-  }
+}

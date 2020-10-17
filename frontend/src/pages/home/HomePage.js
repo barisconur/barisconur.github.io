@@ -16,7 +16,7 @@ export default function HomePage() {
       <div id="nav-bar"><Navbar/></div>
       <div id="jumbotron"><Jumbotron/></div>
     </div>
-    
+
     <div id="sections"><Sections/></div>
   </>
   )

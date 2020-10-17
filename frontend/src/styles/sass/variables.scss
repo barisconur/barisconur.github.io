@@ -16,18 +16,28 @@ $slate: #8892B0;
 $lighSlate: #a8b2d1;
 $lightestSlate: #CCD6F6;
 $white: #e6f1ff;
-$darkGreen: #46B299;
+
+$red: #dc3545;
+$darkRed: #AB1B2A;
 $green: #64FFDA;
-$dark-red: #AB1B2A;
+$darkGreen: #46B299;
+$blue: #007bff;
+$darkBlue: #153d68;
 
 // text colors
-$jumbotron-summary-text-color: $darkNavy;
 $default-text-color:$slate;
 $bold-text-color: $lightestSlate;
 $navbar-link-hover-color: $green;
-$resume-btn-hover-color: $darkGreen; 
-$blog-btn-hover-color: $dark-red;
+$jumbotron-summary-text-color: $darkNavy;
 $section-border-color: $lighSlate;
+
+// button colors
+$resume-btn-color: $red;
+$resume-btn-hover-color: $darkRed; 
+$get-in-touch-btn-color: $green;
+$get-in-touch-btn-hover-color: $darkGreen;
+$blog-btn-color: $blue;
+$blog-btn-hover-color: $darkBlue;
 
 // social accounts icon colors
 $github: #812290;

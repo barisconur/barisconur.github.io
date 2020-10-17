@@ -1,6 +1,6 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faLinkedin, faGithubSquare, faMedium, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import {faLinkedin, faGithubSquare, faMediumM, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import conf from '../../../../config';
 import './SocialAccounts.scss';
 
@@ -23,7 +23,7 @@ export default function SocialAccounts() {
 
       <li className="social-link-item">
         <a href={accounts[2].url} rel="noopener noreferrer" target="_blank" className="medium social">
-          <FontAwesomeIcon icon={faMedium} size="2x"/>
+          <FontAwesomeIcon icon={faMediumM} size="2x"/>
         </a>
       </li>
 

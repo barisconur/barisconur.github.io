@@ -1,0 +1,14 @@
+@import '../../../../styles/sass/variables.scss';
+
+#get-in-touch-btn {
+  color: $get-in-touch-btn-color;
+  border-color: $get-in-touch-btn-hover-color;
+  .link {
+    color: $get-in-touch-btn-color;
+    text-decoration: none;
+  }
+}
+#get-in-touch-btn:hover {
+  background-color: $get-in-touch-btn-hover-color;
+  text-decoration: none;
+}
