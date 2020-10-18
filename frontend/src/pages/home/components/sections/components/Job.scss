@@ -1,0 +1,41 @@
+@import '../../../../../styles/sass/variables.scss';
+
+.job {
+  margin-bottom: 50px;
+  .raw {
+    height: 31.5px;
+    display: flex;
+    -webkit-box-pack: justify;
+    .job-company {
+      display: flex;
+      p {
+        line-height: 31.5px;
+        text-align: center;
+      }
+      .name {
+        text-decoration: none;
+        color: $bold-text-color;
+        line-height: 31.5px;
+        font-weight: 700;
+        font-size: $xs-fs;
+      }
+      .location {
+        font-size: $xxs-fs;
+        letter-spacing: 1px;
+      }
+    }
+    .time-place-wrapper {
+      margin-left: auto; 
+      margin-right: 0;
+      .time-text {
+        letter-spacing: 1px;
+        line-height: 31.5px;
+        font-size: $xxxs-fs;
+      }
+    }
+  }
+  .position {
+    color: $lightestSlate;
+    font-size: $xxs-fs;
+  }
+}

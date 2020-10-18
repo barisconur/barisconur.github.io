@@ -1,11 +1,12 @@
 // font sizes
 $xxl-fs: 48px;
 $xl-fs: 32px;
-$l-fs: 28px;
-$m-fs: 24px;
-$s-fs: 20px;
-$xs-fs: 18px;
-$xxs-fs: 16px;
+$l-fs: 24px;
+$m-fs: 21px;
+$s-fs: 18px;
+$xs-fs: 16px;
+$xxs-fs: 14px;
+$xxxs-fs: 12px;
 
 // colors 
 $darkNavy: #020c1b;
@@ -22,14 +23,13 @@ $darkRed: #AB1B2A;
 $green: #64FFDA;
 $darkGreen: #46B299;
 $blue: #007bff;
-$darkBlue: #153d68;
+$darkBlue: #265f9c;
 
 // text colors
 $default-text-color:$slate;
 $bold-text-color: $lightestSlate;
 $navbar-link-hover-color: $green;
 $jumbotron-summary-text-color: $darkNavy;
-$section-border-color: $lighSlate;
 
 // button colors
 $resume-btn-color: $red;

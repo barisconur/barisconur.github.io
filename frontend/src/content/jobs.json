@@ -1,0 +1,18 @@
+{
+  "prevJobs": [
+    {
+      "companyName": "P.I. Works",
+      "companyLink": "piworks.net",
+      "location": "Istanbul, Turkey",
+      "jobTitle": "Software Support Engineer",
+      "timePlace": "Sep 2020 - Present"
+    },
+    {
+      "companyName": "Netas",
+      "companyLink": "netas.com.tr",
+      "location": "Istanbul, Turkey",
+      "jobTitle": "Software Enginner Intern",
+      "timePlace": "June 2019 - August 2019"
+    }
+  ] 
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import Job from './components/Job.js';
+import exp from '../../../../content/jobs.json';
 import '../Sections.scss';
 import './Experience.scss';
 
@@ -11,7 +13,11 @@ export default function Experience() {
 		</div>
 
     <div className="inner">
-        <h2>TODO</h2>
+      <div className="jobs">
+        {exp.prevJobs.map((job, index) => 
+          <Job description={job} key={index}/>
+        )}
+      </div>
     </div>
   </>
   )
