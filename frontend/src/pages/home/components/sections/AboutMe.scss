@@ -1,6 +1,12 @@
 
 @import '../../../../styles/sass/variables.scss';
+
 #About {
+  .title-panel {
+    .title-text {
+      line-height: 15.1px !important;
+    }
+  }
   .inner {
     display: flex;
     .summary-panel {
