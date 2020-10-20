@@ -1,8 +1,14 @@
 @import '../../styles/sass/mixins';
+@import '../../styles/sass/variables';
 
 #home-section {
   @include addResponsiveBackgroundImage; 
   width: 100%;
   height: 100vh;
   background-image: url('../../styles/images/background.jpg');
+}
+
+#sections {
+  background-color: $navy;
+  font-size: $xxs-fs;
 }
