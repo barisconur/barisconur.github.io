@@ -6,8 +6,7 @@ export default function AboutMe() {
 	return (
 	<>
 		<div className="title-panel">
-			<h2 className="title-text">About Me</h2>
-			<hr className="section-line"/>
+			<h2 className="title-text">About&nbsp;Me</h2>
 		</div>
 
 		<div className="inner">

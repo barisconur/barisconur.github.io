@@ -1,28 +1,24 @@
 @import '../../../styles/sass/variables.scss';
 
 #sections {
+  font-size: $xxs-fs;
   background-color: $navy;
-
   .section {
     max-width: 900px;
     margin: 0 auto;
     padding: 90px 0px;
-  
+    display: flex;
     .title-panel {
-      padding-bottom: 1%;
-
+      width: 180px;
       .title-text {
-        color: $bold-text-color;
-        font-weight: 700;
-        font-size: $l-fs;
+        padding-top: 3.5px;
+        color: $lightestSlate;
+        letter-spacing: 1px;
+        font-size: $s-fs;
       }
-
-      .section-line {
-        border-top: solid;
-        width: 175px;
-        color: $navbar-link-hover-color;
-        border-color: $navbar-link-hover-color;
-      }
+    }
+    .inner {
+      width: 720px;
     }
   }
 }

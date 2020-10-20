@@ -1,4 +1,6 @@
 import React from "react";
+import Project from './components/Project.js';
+import projects from '../../../../content/projects.json';
 import '../Sections.scss';
 import './Projects.scss';
 
@@ -7,11 +9,12 @@ export default function Projects() {
 	<>
 		<div className="title-panel">
 			<h2 className="title-text">Projects</h2>
-			<hr className="section-line"/>
 		</div>
 
 		<div className="inner">
-        <h2>TODO</h2>
+			{projects.prevProjects.map((project, index) => 
+				<Project description={project} key={index}/>
+			)}
     </div>
 	</>
 	)

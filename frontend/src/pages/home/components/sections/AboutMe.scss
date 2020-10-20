@@ -4,7 +4,7 @@
   .inner {
     display: flex;
     .summary-panel {
-      width: 60%;
+      width: 520px;
   
       .paragraph-list {
         .bold-text {
@@ -33,13 +33,12 @@
     }
   
     .profile-panel {
-      width: 40%;
+      width: 200px;
       position: relative;
       overflow: hidden;
-      padding-left: 50px;
       img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
       }
     }
   }

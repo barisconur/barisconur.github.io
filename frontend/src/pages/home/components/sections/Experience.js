@@ -9,7 +9,6 @@ export default function Experience() {
   <>
 		<div className="title-panel">
 			<h2 className="title-text">Experience</h2>
-			<hr className="section-line"/>
 		</div>
 
     <div className="inner">

@@ -1,11 +1,11 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLinkedin, faGithubSquare, faMediumM, faTwitter } from "@fortawesome/free-brands-svg-icons"
-import conf from '../../../../config';
+import me from '../../../../content/me.json';
 import './SocialAccounts.scss';
 
 export default function SocialAccounts() {
-  const accounts = conf.socialMedia;
+  const accounts = me.socialMedia;
   return (
   <>
     <ul>

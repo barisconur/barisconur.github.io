@@ -7,7 +7,6 @@ export default function Education() {
   <>
 		<div className="title-panel">
 			<h2 className="title-text">Education</h2>
-			<hr className="section-line"/>
 		</div>
 
     <div className="inner">

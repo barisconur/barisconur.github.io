@@ -1,0 +1,29 @@
+@import '../../../../../styles/sass/variables.scss';
+
+.project {
+  margin-bottom: 50px;
+  .title-section {
+    margin-bottom: 10px;
+    .name {
+      text-decoration: none;
+      color: $bold-text-color;
+      line-height: 31.5px;
+      letter-spacing: 0.5px;
+      font-size: $xs-fs;
+    }
+    .name:hover {
+      color: $navbar-link-hover-color;
+    }
+  }
+  .keywords-section {
+    .keyword {
+      display: inline-block;
+      margin: 4px 4px 4px 2px;
+      padding: 2px 7px;
+      border-radius: 5px;
+      color: $green;
+      border: 1px solid $green;
+      font-size: $xxxs-fs;
+    }
+  }
+}

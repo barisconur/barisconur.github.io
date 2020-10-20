@@ -1,0 +1,16 @@
+{
+  "prevProjects": [
+    {
+      "title": "Video Streaming over HTTP",
+      "description": "Developed a video streaming system, used NGINX as the web server and AWS as the cloud provider. Encoded the input of Webcam and transferred to server, using RTMP, client then requests and plays the video segments using HLS.js player.",
+      "githubLink": null,
+      "keywords": ["AWS", "NGINX", "RTMP", "HLS"]
+    },
+    {
+      "title": "Analyzing Encrypted Network Traffic via TLS Interception",
+      "description": "Developed a stream-monitoring tool to display all video content history of LAN users. Performed ARP spoofing attack to capture network packets. Analyzed and identified network packets then data’s stored in MongoDB Implemented a web-application to show statistical data on graphs and tables",
+      "githubLink": "https://github.com/barisconur/stream-monitoring-app",
+      "keywords": ["Mitmproxy", "Arpspoof", "MongoDB", "Express", "Python", "React","Bootstrap"]
+    }
+  ]
+}
