@@ -1,0 +1,44 @@
+@import '../../../../../styles/sass/variables.scss';
+
+.school {
+  margin-bottom: 50px;
+  .raw {
+    height: 31.5px;
+    display: flex;
+    .school-info {
+      display: flex;
+      p {
+        line-height: 31.5px;
+        text-align: center;
+      }
+      .name {
+        text-decoration: none;
+        color: $bold-text-color;
+        line-height: 31.5px;
+        letter-spacing: 0.5px;
+        font-size: $xs-fs;
+      }
+      .name:hover {
+        color: $navbar-link-hover-color;
+      }
+      .location {
+        font-size: $xxs-fs;
+        letter-spacing: 1px;
+      }
+    }
+    .time-place-wrapper {
+      margin-left: auto; 
+      margin-right: 0;
+      .time-text {
+        color: $green;
+        letter-spacing: 1px;
+        line-height: 31.5px;
+        font-size: $xxxs-fs;
+      }
+    }
+  }
+  .position {
+    color: $lightestSlate;
+    font-size: $xxs-fs;
+  }
+}

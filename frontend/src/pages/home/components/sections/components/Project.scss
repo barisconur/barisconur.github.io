@@ -25,5 +25,9 @@
       border: 1px solid $green;
       font-size: $xxxs-fs;
     }
+
+    .keyword:hover {
+      background-color: $darkGreen;
+    }
   }
 }

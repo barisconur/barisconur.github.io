@@ -1,5 +1,24 @@
-#Education {
-  .inner {
-    background-color: gray;
+@import '../../../../styles/sass/variables.scss';
+
+.inner {
+  .courses {
+    margin-top: 50px;
+    .courses-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(280px, 400px));
+      margin: 20px 0px 0px;
+      overflow: hidden;
+      list-style: none;
+  
+      .course-item {
+        letter-spacing: 0.75px;
+        margin-bottom: 10px;
+      } 
+    }
+  
+    .course-list li::before {
+      content: "\2022";
+      color: $navbar-link-hover-color;
+    }
   }
 }

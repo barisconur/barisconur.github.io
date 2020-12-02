@@ -1,0 +1,23 @@
+@import '../../../../../styles/sass/variables.scss';
+
+.course {
+  margin-bottom: 10px;
+  .title-section {
+    display: flex;
+
+    .course-code {
+      text-decoration: none;
+      color: $green;
+      line-height: 31.5px;
+      letter-spacing: 0.5px;
+      font-size: $xxs-fs;
+    }
+    .course-name {
+      text-decoration: none;
+      color: $bold-text-color;
+      line-height: 31.5px;
+      letter-spacing: 0.5px;
+      font-size: $xxs-fs;
+    }
+  }
+}
