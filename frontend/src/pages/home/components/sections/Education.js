@@ -23,7 +23,7 @@ export default function Education() {
         <p className="course-header">Here are the few taken courses in university:</p>
         <ul className="courses-list">
           {education.takenCourses.map((course, index) => 
-            <Course className="course-item" description={course} key={index}> {course}</Course>
+            <Course description={course} key={index}> {course}</Course>
           )}
         </ul>
       </div>
