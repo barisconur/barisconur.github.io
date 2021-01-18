@@ -24,3 +24,6 @@ package-lock.json
 coverage
 
 # Benchmarking
+
+# Environment Variables
+config.env
