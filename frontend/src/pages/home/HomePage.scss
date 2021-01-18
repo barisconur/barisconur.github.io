@@ -1,8 +1,0 @@
-@import '../../styles/sass/mixins';
-
-#home-section {
-  @include addResponsiveBackgroundImage; 
-  width: 100%;
-  height: 100vh;
-  background-image: url('../../styles/images/background.jpg');
-}
