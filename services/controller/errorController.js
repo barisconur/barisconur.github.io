@@ -47,7 +47,6 @@ module.exports = (err, req, res, next) => {
   err.status = err.status || 'error';
 
   if (process.env.NODE_ENV === 'dev') {
-    console.log('buraya da giriyo musun');
     sendErrorDev(err, res);
   } else if (process.env.NODE_ENV === 'prod') {
     let error = { ...err };
