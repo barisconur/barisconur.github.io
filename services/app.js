@@ -1,11 +1,15 @@
-const express = require('express')
-const app = express()
-const port = 3001
+const express = require('express');
+const morgan = require('morgan');
+const app = express();
+const errorController = require('./controller/errorController');
 
-app.get('/', (req, res) => {
-  res.send('barisconur.github.io backend init')
-})
+app.use(express.json({limit: '10kb'}));
+if (process.env.NODE_ENV === 'DEV') app.use(morgan('dev'));
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
+const postRouter = require('./router/postRouter');
+app.use(`${process.env.API_PATH}/posts`, postRouter);
+
+app.all('*', (req, res, next) => next(new AppError(`Can't find ${req.originalUrl} on this server.`, 404)));
+app.use(errorController);
+
+module.exports = app;
