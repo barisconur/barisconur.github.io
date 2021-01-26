@@ -11,7 +11,7 @@ exports.getAllPublishedPosts = catchAsyncErr(async (req, res) => {
 });
 
 exports.getAllCreatedPosts = catchAsyncErr(async (req, res) => {
-  const posts = await Post.find({isPublished: false });
+  const posts = await Post.find();
 
   res.status(200).json({
     status: 'success',
@@ -19,10 +19,10 @@ exports.getAllCreatedPosts = catchAsyncErr(async (req, res) => {
   });
 });
 
-exports.getPost =catchAsyncErr(async (req, res, next) => {
-  const post = await Post.findById(req.params.id);
-  if (!post) return next(new AppError('Post is not found',404));
-
+exports.getPost = catchAsyncErr(async (req, res, next) => {
+  const post = await Post.findOne({_id: req.params.id, isPublished: true}).populate('comments');
+  if (!post)  next(new AppError('Post is not found',404));
+    
   res.status(200).json({
     status: 'success',
     post: post,
