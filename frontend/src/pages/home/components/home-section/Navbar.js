@@ -21,7 +21,7 @@ export default function Navbar() {
       )}
       <div className="btn-list">
         <button type="button" id="resume-btn" className="btn btn-outline-success btn">
-          <a href={require("../../../../content/my_cv.pdf")} download="myFile">Resume</a>
+          <a id='resume-link' href={require("../../../../content/my_cv.pdf")} download="Baris_Cemal_Onur">Resume</a>
         </button>
         <GetInTouch/>
       </div>
