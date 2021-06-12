@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Navbar.scss';
 import GetInTouch from './GetInTouch';
@@ -21,9 +20,10 @@ export default function Navbar() {
         </li>
       )}
       <div className="btn-list">
-        <button type="button" id="resume-btn" className="btn btn-outline-success btn">Resume</button>
+        <button type="button" id="resume-btn" className="btn btn-outline-success btn">
+          <a href={require("../../../../content/my_cv.pdf")} download="myFile">Resume</a>
+        </button>
         <GetInTouch/>
-        <Link to="/blog"><button type="button" id="blog-btn" className="btn btn-outline-danger btn">Blog</button></Link>
       </div>
     </ol>
   </nav>

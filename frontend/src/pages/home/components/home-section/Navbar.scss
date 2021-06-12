@@ -32,24 +32,23 @@
         margin-right: 0.5vw;
         font-size: $xxs-fs;
         letter-spacing: 1px;
+        text-decoration: none;
       }
       .btn:focus {
         outline: none;
         box-shadow: none;
+        text-decoration: none;
       }
       #resume-btn {
         color: $resume-btn-color;
         border-color: $resume-btn-hover-color;
+        a {
+          color: $resume-btn-color;
+          text-decoration: none;
+        }
       }
       #resume-btn:hover {
         background-color:  $resume-btn-hover-color;
-      }
-      #blog-btn {
-        color: $blog-btn-color;
-        border-color: $blog-btn-hover-color;
-      }
-      #blog-btn:hover {
-        background-color: $blog-btn-hover-color;
       }
     }
   }
