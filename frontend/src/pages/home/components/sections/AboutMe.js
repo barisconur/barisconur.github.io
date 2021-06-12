@@ -15,7 +15,7 @@ export default function AboutMe() {
 				<div className="skill-set">{renderSkillset()}</div>
 			</div>
 			<div className="profile-panel">
-				<img src={require('../../../../styles/images/me.jpeg')} className="img-fluid" alt="profile"/>
+				<img src={require('../../../../styles/images/me.jpg')} className="img-fluid" alt="profile"/>
 			</div>
 		</div>
 	</>

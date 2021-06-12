@@ -12,6 +12,3 @@ export default function GetInTouch() {
   </>
   )
 }
-
-/*<a href="mailto:brittany.chiang@gmail.com" 
-target="_blank" class="highlight-link">brittany.chiang@gmail.com</a> */
